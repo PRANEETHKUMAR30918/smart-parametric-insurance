@@ -59,6 +59,8 @@ The outputs of risk detection and fraud analysis are combined to generate a fina
 ### Payout Engine
 
 Once validated, payouts are triggered automatically and recorded with a complete audit trail. Each transaction is backed by environmental data and fraud scoring, ensuring transparency and reliability.
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/2569076a-f86d-4c8e-93c8-dce669e818c9" />
+
 
 ---
 
