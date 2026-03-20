@@ -53,13 +53,30 @@ Once validated, payouts are triggered automatically and recorded with a complete
 
 ---
 
+## ⚡ Key Highlights
+
+- Real-time parametric payouts  
+- AI-driven fraud detection  
+- Sensor-based location validation  
+- Graph-based fraud ring detection  
+- Cloud-native scalable architecture  
+
 ## 🔄 System Flow
 
 The system operates through a continuous loop of monitoring, validation, and execution.
 
 ```text
-User App → Data Ingestion → Risk Engine → Fraud Detection → Decision Engine → Payout System
-```
+User App  
+   ↓  
+Data Ingestion  
+   ↓  
+Risk Engine  
+   ↓  
+Fraud Detection  
+   ↓  
+Decision Engine  
+   ↓  
+Payout System  ```
 
 A worker’s device streams real-time data into the system. Environmental conditions are evaluated alongside user behavior. When a disruption is detected and authenticity is confirmed, the system automatically triggers a payout. If inconsistencies are found, the claim is routed for further verification.
 
@@ -120,7 +137,7 @@ The system also accounts for real-world issues such as network instability and G
 
 **Data & Processing**
 
-* Apache Kafka (real-time streaming)
+* Apache Kafka (event streaming & real-time processing)
 * PostgreSQL (relational database)
 * Neo4j (graph-based fraud detection)
 
@@ -158,4 +175,4 @@ The architecture is designed for extensibility. It can be expanded to support ad
 
 SentinelFlow redefines insurance as a real-time financial safety layer. By combining automated payouts with strong fraud resistance, it creates a system that is both efficient and trustworthy.
 
-It provides gig workers with timely financial support while maintaining the integrity and sustainability of the platform in an increasingly unpredictable environment.
+It provides gig workers with timely financial support while maintaining the integrity and sustainability of the platform in an increasingly unpredictable environment.It ensures fast payouts, prevents fraud at scale, and builds trust in automated insurance systems for the future gig economy.
